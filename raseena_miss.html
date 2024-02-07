@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raseena Miss</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <div id="root-body" class="col-12">
+
+        <div class="img col-12 col-md-4">
+
+            <div id="img-details">
+
+                <img src="Images/raseenamiss.jpg" alt="">
+                <div id="contacts">
+
+                    <a href="https://api.whatsapp.com/send?phone=9061223722"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="mailto:raseena@ssmpoly.ac.in"><i class='bx bxs-envelope'></i></a>
+                    <a href=""><i class='bx bxl-linkedin-square'></i></a>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="personal-data col-12 col-md-8">
+
+            <div id="details">
+
+                <p id="name">Raseena T V</p>
+                <p id="role">Lecturer</p>
+
+                <div class="containers">
+
+                    <h5><b>Educational qualifications</b></h5>
+                    <hr class="yellow">
+                    <p><i class='bx bxs-circle point'></i> <b>B.Tech / BE / BSc (Computer Science And Engineering )</b> – University of Calicut</p>
+
+                </div>
+
+                <div class="containers">
+
+                    <h5><b>Faculty development program participated</b></h5>
+                    <hr class="yellow">
+                    <p><i class='bx bxs-circle point'></i> Robotics by AICTE from September 6th to September 10th, 2021, lasting for 5 days in an online mode</p>
+                    <p><i class='bx bxs-circle point'></i> Introduction to IT System Lab by NITTR from January 10th to January 12th, 2022, conducted online over a duration of 3 days</p>
+                    <p><i class='bx bxs-circle point'></i> Full Stack App Development - Python Django by SITTR from January 23rd to January 28th, 2023, spanning 6 days in an online format</p>
+                    <p><i class='bx bxs-circle point'></i> Outcome Based Education and Essential AI Tools for Teachers by Ramakrishna Mission from December 14th to December 20th, 2023, held online for 7 days</p>
+                    <p><i class='bx bxs-circle point'></i> Concept of IoT (6024A) by SITTR from January 8th to January 12th, 2024, lasting for 3 days in an online setting</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+<style>
+    body {
+
+        margin: 0;
+        display: grid;
+        place-items: center;
+        height: 100vh;
+
+    }
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
+    #root-body {
+        height: 720px;
+    }
+
+    .img {
+
+        height: 100%;
+        float: left;
+        display: grid;
+        place-items: center;
+
+    }
+
+    #img-details {
+        margin-left: 70px;
+    }
+
+    .img img {
+
+        height: 430px;
+        width: 330px;
+        object-fit: cover;
+        border-radius: 12px;
+        box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, 0.1);
+
+    }
+
+    #contacts {
+
+        display: flex;
+        justify-content: center;
+        column-gap: 5px;
+
+    }
+
+    #contacts i {
+
+        font-size: 25px;
+        padding-top: 8px;
+        cursor: pointer;
+        color: #19195f;
+
+    }
+
+    .personal-data {
+
+        float: left;
+        padding-top: 65px;
+        padding-bottom: 55px;
+
+    }
+
+    #details {
+
+        width: 90%;
+        margin: auto;
+
+    }
+
+    #name,
+    #role {
+
+        font-size: xxx-large;
+        margin: 10px;
+        margin-left: 0.5px;
+        font-weight: bold;
+        cursor: default;
+        color: #19195f;
+
+    }
+
+    #role {
+
+        margin-top: -19px;
+        font-size: large;
+        margin-left: 3px;
+        font-weight: 500;
+
+    }
+
+    .containers {
+
+        margin-top: 1.2rem;
+        width: 95%;
+        padding: 1.8rem;
+        padding-left: 2.2rem;
+        background-color: #fff;
+        box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, 0.1);
+        border-radius: 0.8rem;
+        cursor: default;
+
+    }
+
+    .containers h5 {
+        color: #19195f;
+    }
+
+    .containers p {
+        margin-bottom: 8px;
+        color: #666;
+    }
+
+    .point {
+
+        font-size: 5px;
+        position: relative;
+        top: -3px;
+
+    }
+
+    .yellow {
+
+        opacity: 1;
+        border-color: #ffcb05;
+        border-width: 1.5px;
+        border-left: 0px;
+
+    }
+
+    .containers:hover {
+
+        background-color: #5f0560;
+        transition: 0.3s;
+
+    }
+
+    .containers:hover h5 {
+        color: #ffcb05;
+    }
+
+    .containers:hover p {
+        color: white;
+    }
+
+    .containers:not(:hover) {
+        transition: 0.3s;
+    }
+</style>
+
+</html>
