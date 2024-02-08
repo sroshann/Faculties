@@ -43,7 +43,8 @@
 
                     <h5><b>Educational qualifications</b></h5>
                     <hr class="yellow">
-                    <p><i class='bx bxs-circle point'></i> <b>B.Tech / BE / BSc (Computer Science And Engineering )</b> – University of Calicut</p>
+                    <p><i class='bx bxs-circle point'></i> <b>B.Tech / BE / BSc (Computer Science And Engineering )</b>
+                        – University of Calicut</p>
 
                 </div>
 
@@ -51,11 +52,16 @@
 
                     <h5><b>Faculty development program participated</b></h5>
                     <hr class="yellow">
-                    <p><i class='bx bxs-circle point'></i> Robotics by AICTE from September 6th to September 10th, 2021, lasting for 5 days in an online mode</p>
-                    <p><i class='bx bxs-circle point'></i> Introduction to IT System Lab by NITTR from January 10th to January 12th, 2022, conducted online over a duration of 3 days</p>
-                    <p><i class='bx bxs-circle point'></i> Full Stack App Development - Python Django by SITTR from January 23rd to January 28th, 2023, spanning 6 days in an online format</p>
-                    <p><i class='bx bxs-circle point'></i> Outcome Based Education and Essential AI Tools for Teachers by Ramakrishna Mission from December 14th to December 20th, 2023, held online for 7 days</p>
-                    <p><i class='bx bxs-circle point'></i> Concept of IoT (6024A) by SITTR from January 8th to January 12th, 2024, lasting for 3 days in an online setting</p>
+                    <p><i class='bx bxs-circle point'></i> Robotics by AICTE from September 6th to September 10th, 2021,
+                        lasting for 5 days in an online mode</p>
+                    <p><i class='bx bxs-circle point'></i> Introduction to IT System Lab by NITTR from January 10th to
+                        January 12th, 2022, conducted online over a duration of 3 days</p>
+                    <p><i class='bx bxs-circle point'></i> Full Stack App Development - Python Django by SITTR from
+                        January 23rd to January 28th, 2023, spanning 6 days in an online format</p>
+                    <p><i class='bx bxs-circle point'></i> Outcome Based Education and Essential AI Tools for Teachers
+                        by Ramakrishna Mission from December 14th to December 20th, 2023, held online for 7 days</p>
+                    <p><i class='bx bxs-circle point'></i> Concept of IoT (6024A) by SITTR from January 8th to January
+                        12th, 2024, lasting for 3 days in an online setting</p>
 
                 </div>
 
@@ -119,7 +125,7 @@
     #contacts i {
 
         font-size: 25px;
-        padding-top: 8px;
+        padding-top: 6px;
         cursor: pointer;
         color: #19195f;
 
@@ -217,6 +223,215 @@
 
     .containers:not(:hover) {
         transition: 0.3s;
+    }
+
+    @media (max-width : 767px) {
+
+        #root-body {
+            height: unset;
+        }
+
+        .img {
+
+            height: unset;
+            margin-top: 60px;
+
+        }
+
+        #img-details {
+            margin-left: unset;
+        }
+
+        #img-details img {
+
+            height: 240px;
+            width: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+
+        }
+
+        #contacts i {
+
+            font-size: medium;
+            position: relative;
+            top: 63px;
+
+        }
+
+        .personal-data {
+
+            padding-top: unset;
+            margin-top: -30px;
+
+        }
+
+        #name,
+        #role {
+
+            font-size: 26px;
+            text-align: center;
+            margin-left: unset;
+            margin-right: unset;
+
+        }
+
+        #role {
+
+            font-size: 17px;
+            margin-top: -15px;
+            margin-left: 11.5px;
+
+        }
+
+        #details div:nth-child(3) {
+            margin-top: 2.5rem;
+        }
+
+        .containers {
+            width: unset;
+        }
+
+        .containers h5 {
+            font-size: medium;
+        }
+
+        .containers p {
+            font-size: smaller;
+        }
+
+        .yellow {
+
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+
+    }
+
+    @media (min-width : 768px) and (max-width : 991px) {
+
+        #root-body {
+            height: unset;
+        }
+
+        .img {
+
+            float: unset;
+            height: unset;
+            width: 100%;
+            margin-top: 60px;
+
+        }
+
+        .img img {
+
+            height: 290px;
+            width: 250px;
+            border-radius: 8px;
+
+        }
+
+        #img-details {
+            margin-left: unset;
+        }
+
+        #contacts i {
+
+            font-size: large;
+            position: relative;
+            top: 73px;
+
+        }
+
+        .personal-data {
+            float: unset;
+        }
+
+        .personal-data {
+
+            width: 100%;
+            padding-top: unset;
+            margin-top: -30px;
+
+        }
+
+        #name,
+        #role {
+
+            font-size: xx-large;
+            text-align: center;
+            margin-left: unset;
+            margin-right: unset;
+
+        }
+
+        #role {
+
+            font-size: larger;
+            margin-top: -18px;
+            margin-left: 11.5px;
+
+        }
+
+        #details div:nth-child(3) {
+            margin-top: 2.3rem;
+        }
+
+        .containers {
+            width: unset;
+        }
+
+        .containers h5 {
+            font-size: 17px;
+        }
+
+        .containers p {
+            font-size: 14px;
+        }
+
+        .yellow {
+
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+
+    }
+
+    @media (min-width : 992px) and (max-width : 1199px) {
+
+        .img {
+            height: 93%;
+        }
+
+        .img img {
+
+            height: 390px;
+            width: 280px;
+            border-radius: 9px;
+
+        }
+
+        #contacts i {
+            font-size: 22px;
+        }
+
+        .containers h5 {
+            font-size: large;
+        }
+
+        .containers p {
+            font-size: 14px;
+        }
+
+        .yellow {
+
+            margin-top: 11px;
+            margin-bottom: 11px;
+
+        }
+
     }
 </style>
 

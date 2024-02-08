@@ -23,7 +23,7 @@
                 <img src="Images/haseenamiss.jpg" alt="">
                 <div id="contacts">
 
-                    <a href="https://api.whatsapp.com/send?phone=9567563600"><i class='bx bxl-whatsapp' ></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=9567563600"><i class='bx bxl-whatsapp'></i></a>
                     <a href="mailto:haseena@ssmpoly.ac.in"><i class='bx bxs-envelope'></i></a>
                     <a href=""><i class='bx bxl-linkedin-square'></i></a>
 
@@ -78,7 +78,6 @@
 </body>
 
 <style>
-
     body {
 
         margin: 0;
@@ -130,7 +129,7 @@
     #contacts i {
 
         font-size: 25px;
-        padding-top: 8px;
+        padding-top: 6px;
         cursor: pointer;
         color: #19195f;
 
@@ -151,7 +150,8 @@
 
     }
 
-    #name , #role {
+    #name,
+    #role {
 
         font-size: xxx-large;
         margin: 10px;
@@ -184,7 +184,9 @@
 
     }
 
-    .containers h5 { color: #19195f; }
+    .containers h5 {
+        color: #19195f;
+    }
 
     .containers p {
         margin-bottom: 8px;
@@ -215,11 +217,226 @@
 
     }
 
-    .containers:hover h5 { color: #ffcb05; }
-    .containers:hover p { color: white; }
+    .containers:hover h5 {
+        color: #ffcb05;
+    }
 
-    .containers:not(:hover) { transition: 0.3s; }
+    .containers:hover p {
+        color: white;
+    }
 
+    .containers:not(:hover) {
+        transition: 0.3s;
+    }
+
+    @media (max-width : 767px) {
+
+        #root-body {
+            height: unset;
+        }
+
+        .img {
+
+            height: unset;
+            margin-top: 60px;
+
+        }
+
+        #img-details {
+            margin-left: unset;
+        }
+
+        #img-details img {
+
+            height: 240px;
+            width: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+
+        }
+
+        #contacts i {
+
+            font-size: medium;
+            position: relative;
+            top: 63px;
+
+        }
+
+        .personal-data {
+
+            padding-top: unset;
+            margin-top: -30px;
+
+        }
+
+        #name,
+        #role {
+
+            font-size: 26px;
+            text-align: center;
+            margin-left: unset;
+            margin-right: unset;
+
+        }
+
+        #role {
+
+            font-size: 17px;
+            margin-top: -15px;
+            margin-left: 11.5px;
+
+        }
+
+        #details div:nth-child(3) {
+            margin-top: 2.5rem;
+        }
+
+        .containers {
+            width: unset;
+        }
+
+        .containers h5 {
+            font-size: medium;
+        }
+
+        .containers p {
+            font-size: smaller;
+        }
+
+        .yellow {
+
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+
+    }
+
+    @media (min-width : 768px) and (max-width : 991px) {
+
+        #root-body {
+            height: unset;
+        }
+
+        .img {
+
+            float: unset;
+            height: unset;
+            width: 100%;
+            margin-top: 60px;
+
+        }
+
+        .img img {
+
+            height: 290px;
+            width: 250px;
+            border-radius: 8px;
+
+        }
+
+        #img-details {
+            margin-left: unset;
+        }
+
+        #contacts i {
+
+            font-size: large;
+            position: relative;
+            top: 73px;
+
+        }
+
+        .personal-data {
+            float: unset;
+        }
+
+        .personal-data {
+
+            width: 100%;
+            padding-top: unset;
+            margin-top: -30px;
+
+        }
+
+        #name,
+        #role {
+
+            font-size: xx-large;
+            text-align: center;
+            margin-left: unset;
+            margin-right: unset;
+
+        }
+
+        #role {
+
+            font-size: larger;
+            margin-top: -18px;
+            margin-left: 11.5px;
+
+        }
+
+        #details div:nth-child(3) {
+            margin-top: 2.3rem;
+        }
+
+        .containers {
+            width: unset;
+        }
+
+        .containers h5 {
+            font-size: 17px;
+        }
+
+        .containers p {
+            font-size: 14px;
+        }
+
+        .yellow {
+
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+
+    }
+
+    @media (min-width : 992px) and (max-width : 1199px) {
+
+        .img {
+            height: 93%;
+        }
+
+        .img img {
+
+            height: 390px;
+            width: 280px;
+            border-radius: 9px;
+
+        }
+
+        #contacts i {
+            font-size: 22px;
+        }
+
+        .containers h5 {
+            font-size: large;
+        }
+
+        .containers p {
+            font-size: 14px;
+        }
+
+        .yellow {
+
+            margin-top: 11px;
+            margin-bottom: 11px;
+
+        }
+
+    }
 </style>
 
 </html>
