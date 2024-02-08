@@ -45,7 +45,8 @@
                         <div class="image">
 
                             <div class="arrow"><i class='bx bx-right-arrow-alt right-arrow'></i></div>
-                            <div class="ring"><img id="heseena-miss" src="Images/haseenamiss.jpg" alt="Haseena Miss"></div>
+                            <div class="ring"><img id="heseena-miss" src="Images/haseenamiss.jpg" alt="Haseena Miss">
+                            </div>
 
                         </div>
                         <div class="texts">
@@ -193,7 +194,8 @@
 
                         <div class="image">
 
-                            <div class="arrow" id="seperate-arrow"><i class='bx bx-right-arrow-alt right-arrow'></i></div>
+                            <div class="arrow" id="seperate-arrow"><i class='bx bx-right-arrow-alt right-arrow'></i>
+                            </div>
                             <div class="ring"><img src="Images/mehramiss.jpg" alt="Mehra Miss"></div>
 
                         </div>
@@ -324,7 +326,9 @@
 
     }
 
-    .image { height: 60%; }
+    .image {
+        height: 60%;
+    }
 
     .image img {
 
@@ -422,6 +426,173 @@
     .profile:not(:hover) .arrow {
         transition: 0.3s;
     }
+
+    @media (max-width : 767px) {
+
+        /* EXTRA SMALL DEVICES */
+
+        #contents {
+
+            margin-top: 75px;
+            margin-bottom: 40px;
+            display: grid;
+            row-gap: 15px;
+            place-items: center;
+
+        }
+
+        .cards { 
+            
+            display: grid; 
+            row-gap: 15px;
+            width: fit-content; 
+            height: fit-content;
+            margin: 0;
+        
+        }
+
+        .profile {
+
+            width: 175px;
+            height: 220px;
+
+        }
+
+        .texts { margin-top: 8px; }
+        .texts p { font-size: small; }
+
+        .image img {
+
+            width: 90px;
+            height: 90px;
+
+        }
+
+        .ring { 
+            
+            padding-right: 0px; 
+            bottom: 3px;
+            left: 40px;
+        
+        }
+
+        .arrow , #seperate-arrow {
+
+            width: 30px;
+            height: 30px;
+            right: -145px;
+            top: 0px;
+            border-radius: 0px 12px 0px 40px;
+
+        }
+
+        .right-arrow {
+
+            top: 1px;
+            left: 11px;
+            font-size: smaller;
+
+        }
+
+    }
+
+    @media (min-width : 768px) and (max-width : 991px) {
+
+        /* SMALL DEVICES */
+
+        #contents { width: unset; }
+
+        .cards { 
+            
+            width: 90%; 
+            height: 243px;
+            column-gap: 17px;
+        
+        }
+
+        .texts { margin-top: 7px; }
+        .texts p { font-size: smaller; }
+
+        .profile {
+
+            width: 160px;
+            height: 218px;
+
+        }
+
+        .image img {
+
+            width: 90px;
+            height: 90px;
+
+        }
+
+        .ring {
+
+            bottom: 12px;
+            left: 32px;
+            padding-right: 0px;
+
+        }
+
+        .arrow , #seperate-arrow {
+
+            width: 30px;
+            height: 30px;
+            right: -130px;
+            border-radius: 0px 11px 0px 40px;
+
+        }
+
+        .right-arrow {
+
+            top: 2.5px;
+            left: 11px;
+            font-size: medium;
+
+        }
+
+    }
+
+    @media (min-width : 992px) and (max-width : 1199px) {
+
+        /* MIDDLE DEVICES */
+
+        #contents { width: unset; }
+
+        .cards { 
+            
+            width: 90%; 
+            height: 265px;
+        
+        }
+
+        .profile { 
+            
+            width: 180px; 
+            height: 235px;
+        
+        }
+
+        .texts { margin-top: 5px; }
+        .ring { left: 40px; }
+        .arrow , #seperate-arrow { right: -140px; }
+
+    }
+
+    @media ( min-width : 1200px ) {
+
+        .ring { left: 50px; }
+        .arrow , #seperate-arrow { 
+            
+            right: -160px; 
+            border-radius: 0px 9px 0px 40px;
+        
+        }
+        .profile { width: 200px; }
+        
+    }
+
 </style>
 
 </html>
